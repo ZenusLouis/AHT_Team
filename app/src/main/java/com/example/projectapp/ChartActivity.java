@@ -33,7 +33,6 @@ public class ChartActivity extends AppCompatActivity {
     private List<Entry> humidityEntries;
     private List<Entry> temperatureEntries;
     private XAxis xAxis;
-    private static final int MAX_DATA_POINTS = 10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
